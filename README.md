@@ -3,6 +3,8 @@
 
 CodeBook.md is a code book that describes the or work that I performed to clean up the data
 
+This repository contains the script run_analysis.R for the course project.
+
 The 5 steps required as described in the course project:
 
 -Merges the training and the test sets to create one data set.
