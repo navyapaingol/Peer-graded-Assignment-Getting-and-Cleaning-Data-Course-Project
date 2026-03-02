@@ -1,6 +1,11 @@
 Download the dataset
 Dataset downloaded and extracted under the folder called UCI HAR Dataset
 
+## Data Source
+
+The data comes from the Human Activity Recognition Using Smartphones Data Set.
+
+
 Assign data to variables
 features <- features.txt : 561 rows, 2 columns
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
@@ -18,6 +23,9 @@ x_train <- test/X_train.txt : 7352 rows, 561 columns
 contains recorded features train data
 y_train <- test/y_train.txt : 7352 rows, 1 columns
 contains train data of activities’code labels
+
+
+## Transformations Performed
 
 Merges the training and the test sets to create one data set
 X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
